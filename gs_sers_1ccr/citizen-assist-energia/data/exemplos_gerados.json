@@ -1,0 +1,92 @@
+{
+  "100_kwh_mes": {
+    "consumo_kwh_mes": 100,
+    "a1_conta_brl": 78.94,
+    "a2_solar": {
+      "geracao_kwh_mes": 147.42,
+      "energia_compensada_kwh_mes": 100,
+      "antes_brl": 78.94,
+      "depois_brl": 23.68,
+      "economia_brl_mes": 55.26,
+      "investimento_brl": 4260.0,
+      "payback_meses": 77.09,
+      "payback_anos": 6.42,
+      "co2_evitado_kg_mes": 4.61
+    },
+    "a3_led": {
+      "potencia_atual_w": 15,
+      "lampadas_qtd": 8,
+      "antes_iluminacao_kwh_mes": 18.0,
+      "depois_iluminacao_kwh_mes": 10.8,
+      "economia_kwh_mes": 7.2,
+      "antes_brl": 78.94,
+      "depois_brl": 73.25,
+      "economia_brl_mes": 5.68,
+      "investimento_brl": 29.04,
+      "payback_meses": 5.11,
+      "payback_anos": 0.43,
+      "co2_evitado_kg_mes": 0.33,
+      "iluminacao_maior_que_consumo": false
+    }
+  },
+  "200_kwh_mes": {
+    "consumo_kwh_mes": 200,
+    "a1_conta_brl": 157.88,
+    "a2_solar": {
+      "geracao_kwh_mes": 147.42,
+      "energia_compensada_kwh_mes": 147.42,
+      "antes_brl": 157.88,
+      "depois_brl": 58.96,
+      "economia_brl_mes": 98.91,
+      "investimento_brl": 4260.0,
+      "payback_meses": 43.07,
+      "payback_anos": 3.59,
+      "co2_evitado_kg_mes": 6.8
+    },
+    "a3_led": {
+      "potencia_atual_w": 15,
+      "lampadas_qtd": 8,
+      "antes_iluminacao_kwh_mes": 18.0,
+      "depois_iluminacao_kwh_mes": 10.8,
+      "economia_kwh_mes": 7.2,
+      "antes_brl": 157.88,
+      "depois_brl": 152.19,
+      "economia_brl_mes": 5.68,
+      "investimento_brl": 29.04,
+      "payback_meses": 5.11,
+      "payback_anos": 0.43,
+      "co2_evitado_kg_mes": 0.33,
+      "iluminacao_maior_que_consumo": false
+    }
+  },
+  "300_kwh_mes": {
+    "consumo_kwh_mes": 300,
+    "a1_conta_brl": 236.81,
+    "a2_solar": {
+      "geracao_kwh_mes": 147.42,
+      "energia_compensada_kwh_mes": 147.42,
+      "antes_brl": 236.81,
+      "depois_brl": 137.9,
+      "economia_brl_mes": 98.91,
+      "investimento_brl": 4260.0,
+      "payback_meses": 43.07,
+      "payback_anos": 3.59,
+      "co2_evitado_kg_mes": 6.8
+    },
+    "a3_led": {
+      "potencia_atual_w": 15,
+      "lampadas_qtd": 8,
+      "antes_iluminacao_kwh_mes": 18.0,
+      "depois_iluminacao_kwh_mes": 10.8,
+      "economia_kwh_mes": 7.2,
+      "antes_brl": 236.81,
+      "depois_brl": 231.13,
+      "economia_brl_mes": 5.68,
+      "investimento_brl": 29.04,
+      "payback_meses": 5.11,
+      "payback_anos": 0.43,
+      "co2_evitado_kg_mes": 0.33,
+      "iluminacao_maior_que_consumo": false
+    }
+  }
+}

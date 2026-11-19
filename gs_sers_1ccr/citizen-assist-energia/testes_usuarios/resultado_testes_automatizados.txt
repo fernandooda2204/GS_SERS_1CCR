@@ -1,0 +1,25 @@
+Execução local dos testes automatizados em 19/11/2026 (testes de código; não substituem os testes com usuários):
+test_conta_respeita_minimo (test_energia.TestCalculos.test_conta_respeita_minimo) ... ok
+test_economia_nunca_negativa (test_energia.TestCalculos.test_economia_nunca_negativa) ... ok
+test_formula (test_energia.TestCalculos.test_formula) ... ok
+test_geladeira (test_energia.TestCalculos.test_geladeira) ... ok
+test_led_energia_positiva (test_energia.TestCalculos.test_led_energia_positiva) ... ok
+test_led_respeita_custo_minimo (test_energia.TestCalculos.test_led_respeita_custo_minimo) ... ok
+test_led_sem_economia_se_ja_e_led (test_energia.TestCalculos.test_led_sem_economia_se_ja_e_led) ... ok
+test_led_usa_dados_do_usuario (test_energia.TestCalculos.test_led_usa_dados_do_usuario) ... ok
+test_negativo (test_energia.TestCalculos.test_negativo) ... ok
+test_payback_mesma_unidade (test_energia.TestCalculos.test_payback_mesma_unidade) ... ok
+test_solar_investimento_por_wp (test_energia.TestCalculos.test_solar_investimento_por_wp) ... ok
+test_solar_nao_supera_consumo (test_energia.TestCalculos.test_solar_nao_supera_consumo) ... ok
+test_solar_nao_zera_conta (test_energia.TestCalculos.test_solar_nao_zera_conta) ... ok
+test_formato_brasileiro (test_energia.TestRespostas.test_formato_brasileiro) ... ok
+test_intencoes (test_energia.TestRespostas.test_intencoes) ... ok
+test_pergunta_fora_do_tema (test_energia.TestRespostas.test_pergunta_fora_do_tema) ... ok
+test_recomendacao_coerente_com_calculo (test_energia.TestRespostas.test_recomendacao_coerente_com_calculo) ... ok
+test_respostas_tem_fonte_e_aviso (test_energia.TestRespostas.test_respostas_tem_fonte_e_aviso) ... ok
+test_solar_nao_compensa_consumo_minimo (test_energia.TestRespostas.test_solar_nao_compensa_consumo_minimo) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.002s
+
+OK

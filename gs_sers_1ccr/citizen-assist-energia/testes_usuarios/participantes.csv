@@ -1,0 +1,6 @@
+id,primeiro_nome,familiaridade_digital,data_teste,situacao,consentimento,usuario_externo_ao_grupo
+P01,Gustavo,avançada,10/11/2026,realizado,sim,sim
+P02,Ariane,básica,10/11/2026,realizado,sim,sim
+P03,Thalles,avançada,12/11/2026,realizado,sim,sim
+P04,Felipe,avançada,12/11/2026,realizado,sim,sim
+P05,Rogerio,avançada,10/11/2026,realizado,sim,sim

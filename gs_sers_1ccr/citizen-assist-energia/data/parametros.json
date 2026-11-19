@@ -1,0 +1,107 @@
+{
+  "tarifa_energia_brl_kwh": {
+    "valor": 0.78938,
+    "unidade": "R$/kWh",
+    "tipo": "dado público",
+    "fonte": "Enel SP — tarifa B1 residencial convencional: https://www.enel.com.br/pt-saopaulo/Para_Voce/tarifa-energia-eletrica.html",
+    "verificacao": "Conferido em 19/11/2026: TUSD R$ 472,42/MWh + TE R$ 316,96/MWh, vigência desde 04/07/2026. Sem PIS/COFINS, ICMS, bandeira e CIP: não é o valor final da fatura."
+  },
+  "consumo_referencia_kwh_mes": {
+    "valor": 200,
+    "unidade": "kWh/mês",
+    "tipo": "estimativa justificada",
+    "fonte": "EPE — Resenha Mensal do Mercado de Energia Elétrica (consumo residencial médio por unidade, recorde de 181,8 kWh/mês na série iniciada em 2004): https://www.epe.gov.br/pt/publicacoes-dados-abertos/publicacoes/resenha-mensal-do-mercado-de-energia-eletrica",
+    "verificacao": "Arredondado para 200 kWh/mês, um pouco acima da média nacional (cerca de 182 kWh/mês). O usuário pode informar o consumo da própria fatura."
+  },
+  "potencia_solar_kwp": {
+    "valor": 1.5,
+    "unidade": "kWp",
+    "tipo": "premissa de projeto",
+    "fonte": "Dimensionamento do grupo: sistema pequeno que gera menos que o consumo de referência, para não gerar créditos sem uso",
+    "verificacao": "1,5 kWp × 4,2 h × 30 × 0,78 ≈ 147 kWh/mês, abaixo dos 200 kWh/mês de referência."
+  },
+  "horas_sol_pleno_dia": {
+    "valor": 4.2,
+    "unidade": "h/dia (= kWh/m²·dia)",
+    "tipo": "estimativa conservadora",
+    "fonte": "CRESESB SunData: https://cresesb.cepel.br/index.php?section=sundata — referências secundárias indicam 4,5–4,8 kWh/m²·dia na média anual para a capital paulista",
+    "verificacao": "Adotado 4,2, abaixo da faixa publicada, para não superestimar a geração. Para um endereço específico, consultar o SunData com as coordenadas."
+  },
+  "fator_desempenho_solar": {
+    "valor": 0.78,
+    "unidade": "fração",
+    "tipo": "estimativa justificada",
+    "fonte": "Performance ratio típico de sistemas on-grid (perdas de temperatura, cabos, inversor, sujeira), faixa usual de 0,75 a 0,85 na literatura de dimensionamento",
+    "verificacao": "Valor no meio-baixo da faixa usual."
+  },
+  "custo_solar_brl_por_wp": {
+    "valor": 2.84,
+    "unidade": "R$/Wp instalado",
+    "tipo": "dado público",
+    "fonte": "Greener — Estudo Estratégico Geração Distribuída 2025: sistema residencial de 4 kWp a R$ 11.360 (R$ 2,84/Wp) em jun/2025; Solfácil indica média nacional de R$ 2,45/Wp no 1º tri/2026",
+    "verificacao": "Usado o maior valor (R$ 2,84/Wp), porque sistemas pequenos costumam custar mais por Wp. Ainda pode subestimar um sistema de 1,5 kWp: pedir orçamento local."
+  },
+  "parcela_tarifa_fio_b": {
+    "valor": 0.25,
+    "unidade": "fração da tarifa",
+    "tipo": "hipótese didática",
+    "fonte": "Aproximação do peso do componente Fio B na tarifa; o valor exato está na resolução homologatória da ANEEL da distribuidora",
+    "verificacao": "Não é tarifa regulatória. Serve só para mostrar que a solar não zera a conta."
+  },
+  "fracao_fio_b_cobrada": {
+    "valor": 0.6,
+    "unidade": "fração",
+    "tipo": "dado público",
+    "fonte": "Lei 14.300/2022, art. 27: https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/l14300.htm",
+    "verificacao": "Conferido em 19/11/2026: 60% em 2026 para sistemas na regra de transição. Pode ser diferente para outros enquadramentos."
+  },
+  "custo_disponibilidade_brl": {
+    "valor": 23.6814,
+    "unidade": "R$/mês",
+    "tipo": "cálculo sobre dado público",
+    "fonte": "ANEEL — custo de disponibilidade de 30 kWh (monofásico), 50 kWh (bifásico) ou 100 kWh (trifásico): https://www.gov.br/aneel/pt-br/assuntos/geracao/geracao-distribuida",
+    "verificacao": "30 kWh × R$ 0,78938 (ligação monofásica, sem tributos)."
+  },
+  "luminarias_qtd": {
+    "valor": 8,
+    "unidade": "lâmpadas",
+    "tipo": "estimativa",
+    "fonte": "Residência de referência com sala, cozinha, 2 quartos, banheiro, área de serviço e área externa",
+    "verificacao": "O usuário informa a própria quantidade na opção 7."
+  },
+  "potencia_antiga_w": {
+    "valor": 15,
+    "unidade": "W",
+    "tipo": "estimativa justificada",
+    "fonte": "Portaria Interministerial 1.007/2010: venda de incandescentes de uso geral proibida no Brasil desde 30/06/2016. Por isso a referência é a fluorescente compacta de 15 W, de luminosidade parecida com a LED de 9 W",
+    "verificacao": "O usuário informa a potência das próprias lâmpadas na opção 7."
+  },
+  "potencia_led_w": {
+    "valor": 9,
+    "unidade": "W",
+    "tipo": "dado de produto",
+    "fonte": "Lâmpadas pesquisadas em data/precos_pesquisa.csv (bulbo E27 9 W)",
+    "verificacao": "Potência nominal dos modelos pesquisados."
+  },
+  "horas_luz_dia": {
+    "valor": 5,
+    "unidade": "h/dia",
+    "tipo": "estimativa",
+    "fonte": "Uso noturno típico (aprox. 18h às 23h)",
+    "verificacao": "O usuário informa as próprias horas na opção 7."
+  },
+  "preco_lampada_led_brl": {
+    "valor": 3.63,
+    "unidade": "R$/unidade",
+    "tipo": "pesquisa de preços",
+    "fonte": "Pesquisa de 19/11/2026 em data/precos_pesquisa.csv",
+    "verificacao": "Mediana de 3 ofertas (R$ 3,11; R$ 3,63; R$ 4,47), sem frete."
+  },
+  "fator_emissao_kg_co2_kwh": {
+    "valor": 0.0461,
+    "unidade": "kgCO2/kWh",
+    "tipo": "dado público",
+    "fonte": "MCTI/SIRENE — fator médio de emissão do SIN 2025, reproduzido no Inventário de Emissões 2025 da B3: https://www.b3.com.br/data/files/16/36/19/60/DDE3D9101BEEB2D9AC094EA8/Inventario_de_Emissoes_de_Gases_do_Efeito_Estufa_2025.pdf (a série mensal oficial está no SIRENE/MCTI)",
+    "verificacao": "0,0461 tCO2/MWh = 0,0461 kgCO2/kWh. Fator médio histórico, não marginal: indica ordem de grandeza, não emissão medida."
+  }
+}

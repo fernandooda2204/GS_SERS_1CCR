@@ -1,0 +1,6 @@
+id,primeiro_nome,familiaridade_digital,tarefas_sem_ajuda_de_6,tempo_total_s,sus,sus_respostas_q1_q10
+P01,Gustavo,avançada,5,222,75.0,"4,2,4,2,4,2,4,2,4,2"
+P02,Ariane,básica,3,445,57.5,"3,3,3,3,4,3,3,2,3,2"
+P03,Thalles,avançada,6,134,97.5,"5,1,4,1,5,1,5,1,5,1"
+P04,Felipe,avançada,5,263,72.5,"4,2,4,2,4,2,3,2,4,2"
+P05,Rogerio,avançada,1,529,50.0,"3,3,3,3,3,3,3,3,3,3"
