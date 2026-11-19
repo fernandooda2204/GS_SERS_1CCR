@@ -1,4 +1,4 @@
-# 04 — Viabilidade e impactos
+# 03 — Viabilidade e impactos
 
 ## A2 — Solar fotovoltaica
 - **Técnica:** precisa de telhado com área suficiente, sem sombra, voltado de preferência para o norte, e estrutura que aguente os painéis. Precisa de projeto e homologação na distribuidora.

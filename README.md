@@ -53,12 +53,13 @@ Os aparelhos cadastrados ficam em `data/aparelhos_local.json` (ignorado pelo Git
 ## Organização
 | Pasta / arquivo | Conteúdo |
 |---|---|
+| `citizen-assist-energia/` | Pasta do módulo (todos os caminhos abaixo são relativos a ela) |
 | `energia.py` | Cálculos (consumo, A1, A2, A3) |
 | `respostas.py` | Respostas e recomendações em linguagem simples; `responder()` é o ponto de integração |
 | `run_assistente.py` | Interface de terminal |
 | `data/parametros.json` | Todos os valores usados, com unidade, tipo, fonte e verificação |
 | `data/precos_pesquisa.csv`, `data/precificacao_resumo.md` | Pesquisa de preços |
-| `docs/01` a `docs/09` | Contexto, dados e premissas, comparação, viabilidade e impactos, recomendações, integração, testes, roteiro do vídeo, auditoria de fontes |
+| `docs/01` a `docs/06` | Dados e premissas, comparação das alternativas, viabilidade e impactos, recomendações, integração ao assistente, auditoria de fontes |
 | `docs/analise_gerada.md` | Cálculo do cenário de referência |
 | `testes_usuarios/` | Resultados, registros individuais e ajustes feitos |
 | `tests/` | Testes automatizados |
@@ -71,7 +72,7 @@ Os aparelhos cadastrados ficam em `data/aparelhos_local.json` (ignorado pelo Git
 - Retorno simples = investimento ÷ economia mensal (sem juros).
 - CO₂ evitado = kWh economizado × fator médio do SIN de 2025 (MCTI).
 
-Detalhes em `docs/02_dados_e_premissas.md` e `docs/03_comparacao_alternativas.md`.
+Detalhes em `docs/01_dados_e_premissas.md` e `docs/02_comparacao_alternativas.md`.
 
 ## Principais referências
 - Enel SP — tarifas residenciais (B1)
@@ -84,7 +85,7 @@ Detalhes em `docs/02_dados_e_premissas.md` e `docs/03_comparacao_alternativas.md
 - MCTI/SIRENE — fatores de emissão do SIN
 - Inmetro — Programa Brasileiro de Etiquetagem
 
-Links e observações de cada uma em `docs/09_auditoria_fontes.md`.
+Links e observações de cada uma em `docs/06_auditoria_fontes.md`.
 
 ## Limitações
 Tarifa sem tributos, bandeiras e iluminação pública; sem juros, manutenção e degradação dos painéis; geração solar

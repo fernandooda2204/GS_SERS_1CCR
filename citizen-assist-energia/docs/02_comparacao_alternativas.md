@@ -1,4 +1,4 @@
-# 03 — Comparação das alternativas
+# 02 — Comparação das alternativas
 
 **Mesma necessidade e mesmo período:** residência de referência com 200 kWh/mês, comparação mensal.
 Os números são gerados por `scripts/gerar_analise.py` (ver `docs/analise_gerada.md`).
