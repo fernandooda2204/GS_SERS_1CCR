@@ -1,8 +1,6 @@
-# P03 — Thalles (personagem fictício)
+# P03 — Thalles 
 
-
-
-- Data: 10/11/2026 - 17:00 até umas 21:00
+- Data: 12/11/2026 - 17:00 até 17:10
 - Familiaridade digital: avançada
 - Consentimento: obtido
 - Status: Realizado
@@ -13,7 +11,7 @@
 3. O que precisaria entender para decidir trocar lâmpadas ou instalar solar? Premissas, impostos e indicadores.
 
 ## Tarefas — resultados 
-| Tarefa | Tempo fictício (s) | Sem ajuda? | Conclusão hipotética | Observação imaginada |
+| Tarefa | Tempo (s) | Sem ajuda? | Conclusão | Observação |
 |---|---:|---|---|---|
 | T1 | 18 | Sim | Sim | Cadastrou corretamente. |
 | T2 | 9 | Sim | Sim | Sem dificuldade. |
@@ -25,6 +23,4 @@
 ## SUS — respostas
 Q1–Q10: 5, 1, 4, 1, 5, 1, 5, 1, 5, 1
 
-**SUS simulado:** 97.5/100 (calculado pela fórmula padrão;).
-
-
+**SUS simulado:** 97.5/100 (calculado pela fórmula padrão).

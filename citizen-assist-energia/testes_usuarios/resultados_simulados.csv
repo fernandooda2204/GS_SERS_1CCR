@@ -1,6 +1,6 @@
-id,personagem,natureza,familiaridade_ficticia,tarefas_sem_ajuda_hipoteticas_de_6,tempo_total_hipotetico_s,sus_ficticio,sus_respostas_ficticias
-P01,Gustavo,FICTICIO_DEMONSTRACAO,intermediária,5,222,75.0,"4,2,4,2,4,2,4,2,4,2"
-P02,Ariane,FICTICIO_DEMONSTRACAO,básica,3,445,57.5,"3,3,3,3,4,3,3,2,3,2"
-P03,Thalles,FICTICIO_DEMONSTRACAO,avançada,6,134,97.5,"5,1,4,1,5,1,5,1,5,1"
-P04,Felipe,FICTICIO_DEMONSTRACAO,intermediária,5,263,72.5,"4,2,4,2,4,2,3,2,4,2"
-P05,Rogerio,FICTICIO_DEMONSTRACAO,básica,1,529,50.0,"3,3,3,3,3,3,3,3,3,3"
+id,personagem,tarefas_sem_ajuda_hipoteticas_de_6,tempo_total_hipotetico_s,sus_ficticio,sus_respostas_ficticias
+P01,Gustavo,avançada,5,222,75.0,"4,2,4,2,4,2,4,2,4,2"
+P02,Ariane,básica,3,445,57.5,"3,3,3,3,4,3,3,2,3,2"
+P03,Thalles,avançada,6,134,97.5,"5,1,4,1,5,1,5,1,5,1"
+P04,Felipe,avançada,5,263,72.5,"4,2,4,2,4,2,3,2,4,2"
+P05,Rogerio,avançada,1,529,50.0,"3,3,3,3,3,3,3,3,3,3"
