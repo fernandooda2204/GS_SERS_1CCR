@@ -1,0 +1,13 @@
+Execução local dos testes automatizados em 19/11/2026 (não equivale a teste com usuários):
+test_conta_nao_negativa (test_energia.TestCalculos.test_conta_nao_negativa) ... ok
+test_economia_nunca_negativa (test_energia.TestCalculos.test_economia_nunca_negativa) ... ok
+test_formula (test_energia.TestCalculos.test_formula) ... ok
+test_geladeira (test_energia.TestCalculos.test_geladeira) ... ok
+test_led_energia_positiva (test_energia.TestCalculos.test_led_energia_positiva) ... ok
+test_negativo (test_energia.TestCalculos.test_negativo) ... ok
+test_solar_nao_supera_consumo (test_energia.TestCalculos.test_solar_nao_supera_consumo) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.001s
+
+OK

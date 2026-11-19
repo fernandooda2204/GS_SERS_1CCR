@@ -1,0 +1,71 @@
+{
+  "100": {
+    "consumo_kwh_mes": 100,
+    "a1_conta_brl": 78.938,
+    "a2_solar": {
+      "geracao_kwh_mes": 147.42000000000002,
+      "energia_compensada_kwh_mes": 100,
+      "antes_brl": 78.938,
+      "depois_brl": 23.6814,
+      "economia_brl_mes": 55.256600000000006,
+      "investimento_brl": 8500,
+      "payback_anos": 12.81898150326537,
+      "co2_evitado_kg_mes": 4.61
+    },
+    "a3_led": {
+      "antes_iluminacao_kwh_mes": 72.0,
+      "depois_iluminacao_kwh_mes": 10.8,
+      "economia_kwh_mes": 61.2,
+      "economia_brl_mes": 48.310056,
+      "investimento_brl": 29.04,
+      "payback_meses": 0.6011170841946446,
+      "co2_evitado_kg_mes": 2.82132
+    }
+  },
+  "200": {
+    "consumo_kwh_mes": 200,
+    "a1_conta_brl": 157.876,
+    "a2_solar": {
+      "geracao_kwh_mes": 147.42000000000002,
+      "energia_compensada_kwh_mes": 147.42000000000002,
+      "antes_brl": 157.876,
+      "depois_brl": 58.96116033999999,
+      "economia_brl_mes": 98.91483966000001,
+      "investimento_brl": 8500,
+      "payback_anos": 7.161042122376052,
+      "co2_evitado_kg_mes": 6.796062000000001
+    },
+    "a3_led": {
+      "antes_iluminacao_kwh_mes": 72.0,
+      "depois_iluminacao_kwh_mes": 10.8,
+      "economia_kwh_mes": 61.2,
+      "economia_brl_mes": 48.310056,
+      "investimento_brl": 29.04,
+      "payback_meses": 0.6011170841946446,
+      "co2_evitado_kg_mes": 2.82132
+    }
+  },
+  "300": {
+    "consumo_kwh_mes": 300,
+    "a1_conta_brl": 236.814,
+    "a2_solar": {
+      "geracao_kwh_mes": 147.42000000000002,
+      "energia_compensada_kwh_mes": 147.42000000000002,
+      "antes_brl": 236.814,
+      "depois_brl": 137.89916033999998,
+      "economia_brl_mes": 98.91483966000001,
+      "investimento_brl": 8500,
+      "payback_anos": 7.161042122376052,
+      "co2_evitado_kg_mes": 6.796062000000001
+    },
+    "a3_led": {
+      "antes_iluminacao_kwh_mes": 72.0,
+      "depois_iluminacao_kwh_mes": 10.8,
+      "economia_kwh_mes": 61.2,
+      "economia_brl_mes": 48.310056,
+      "investimento_brl": 29.04,
+      "payback_meses": 0.6011170841946446,
+      "co2_evitado_kg_mes": 2.82132
+    }
+  }
+}
