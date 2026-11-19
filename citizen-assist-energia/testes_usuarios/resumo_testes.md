@@ -4,6 +4,16 @@ Testes presenciais realizados em 10/11/2026 e 12/11/2026 com 5 pessoas externas 
 Versão testada: **v1** do protótipo (menu de 10 opções). Registros individuais em `registros/`.
 Só o primeiro nome dos participantes foi registrado.
 
+## Método
+- **Roteiro:** 3 perguntas de descoberta, 6 tarefas cronometradas e o questionário SUS. O avaliador não indicou respostas.
+- **Perguntas de descoberta:** (1) Você costuma olhar o valor em kWh na sua conta? (2) Como identifica os aparelhos que
+  mais consomem? (3) O que precisaria entender para decidir trocar lâmpadas ou instalar solar?
+- **Tarefas:** T1 cadastrar um aparelho; T2 listar os aparelhos; T3 consultar o consumo; T4 simular uma conta;
+  T5 comparar A1, A2 e A3 e explicar o que é estimativa; T6 localizar a origem e as limitações dos dados.
+- **SUS (System Usability Scale):** 10 afirmações em escala de 1 a 5; itens ímpares = resposta − 1, itens pares =
+  5 − resposta; soma × 2,5. Cálculo em `scripts/calcular_sus.py`.
+- **Privacidade:** só o primeiro nome foi registrado, sem endereço, CPF ou dados da conta de luz.
+
 ## Resultados por participante
 
 | Participante | Familiaridade digital | Tarefas sem ajuda (de 6) | Tempo total | SUS |

@@ -1,4 +1,4 @@
-# 02 — Dados e premissas
+# 01 — Dados e premissas
 
 Todos os valores usados nos cálculos estão em `data/parametros.json`, cada um com unidade, **tipo** (dado público,
 estimativa justificada, hipótese didática, pesquisa de preços), fonte e observação. O assistente mostra essa lista na opção 9.

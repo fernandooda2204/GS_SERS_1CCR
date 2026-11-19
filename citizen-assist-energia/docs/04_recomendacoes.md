@@ -1,4 +1,4 @@
-# 05 — Recomendações ao usuário
+# 04 — Recomendações ao usuário
 
 O assistente gera a recomendação a partir do resultado do cálculo (`respostas.recomendacao`), então ela muda conforme
 o consumo e as lâmpadas informados:

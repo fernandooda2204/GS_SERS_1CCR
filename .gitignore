@@ -1,0 +1,7 @@
+# Aparelhos cadastrados localmente pelo usuário
+citizen-assist-energia/data/aparelhos_local.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
