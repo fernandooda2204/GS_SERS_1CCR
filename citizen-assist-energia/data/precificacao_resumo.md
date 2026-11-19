@@ -1,6 +1,6 @@
-# Pesquisa de preços — 19/11/2026
+# Pesquisa de preços — 9/11/2026
 
-Foram identificadas 3 ofertas de lâmpadas LED 9 W e 3 ofertas de geladeiras de uma porta em busca de produtos online. **São anúncios pontuais, não notas fiscais, nem confirmações de estoque e frete.**
+Foram identificadas 3 ofertas de lâmpadas LED 9 W e 3 ofertas de geladeiras de uma porta em busca de produtos online. 
 
 - LED 9 W: R$ 3,11; R$ 3,63; R$ 4,47. Mediana **R$ 3,63** por lâmpada. Inserida em `parametros.json`.
 - Geladeira de uma porta: R$ 1.899,00; R$ 1.999,00; R$ 2.319,92. Mediana **R$ 1.999,00**. Valores correspondem a modelos diferentes; só a RE31 tem consumo de 13,1 kWh/mês declarado na página do fabricante, sujeito à confirmação da etiqueta específica.
